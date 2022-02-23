@@ -1,0 +1,152 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/NumberGen.gd" type="Script" id=1]
+
+[node name="NumberGen" type="Node2D" groups=[
+"STools",
+]]
+script = ExtResource( 1 )
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_top = 20.0
+margin_right = 350.0
+margin_bottom = 115.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 5.0
+margin_top = 25.0
+margin_right = 345.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartNumPanel" type="Node2D" parent="."]
+position = Vector2( 15, 70 )
+
+[node name="Panel2" type="Panel" parent="StartNumPanel"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -5.0
+margin_top = -5.0
+margin_right = 85.0
+margin_bottom = 30.0
+
+[node name="SpinBoxStart" type="SpinBox" parent="StartNumPanel"]
+margin_right = 80.0
+margin_bottom = 24.0
+max_value = 1e+06
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EndNumPanel" type="Node2D" parent="."]
+position = Vector2( 255, 70 )
+
+[node name="Panel2" type="Panel" parent="EndNumPanel"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -5.0
+margin_top = -5.0
+margin_right = 85.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SpinBoxEnd" type="SpinBox" parent="EndNumPanel"]
+margin_right = 80.0
+margin_bottom = 24.0
+max_value = 999999.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ResultPanel" type="Node2D" parent="."]
+position = Vector2( 135, 70 )
+
+[node name="Panel2" type="Panel" parent="ResultPanel"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = -5.0
+margin_top = -5.0
+margin_right = 85.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Result" type="LineEdit" parent="ResultPanel"]
+margin_right = 80.0
+margin_bottom = 25.0
+text = "0"
+align = 1
+editable = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 350.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 330.0
+margin_right = 350.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Button" parent="."]
+margin_left = 310.0
+margin_right = 330.0
+margin_bottom = 20.0
+text = "_"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_right = 310.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Generate" type="Button" parent="."]
+margin_left = 140.0
+margin_top = 35.0
+margin_right = 211.0
+margin_bottom = 55.0
+text = "Generate"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 45.0
+margin_bottom = 19.0
+text = "Random Number Generator"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="value_changed" from="StartNumPanel/SpinBoxStart" to="." method="_on_SpinBoxStart_value_changed"]
+[connection signal="value_changed" from="EndNumPanel/SpinBoxEnd" to="." method="_on_SpinBoxEnd_value_changed"]
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="pressed" from="Hide" to="." method="_on_Hide_pressed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]
+[connection signal="button_down" from="Generate" to="." method="_on_Generate_button_down"]
+[connection signal="button_up" from="Generate" to="." method="_on_Generate_button_up"]

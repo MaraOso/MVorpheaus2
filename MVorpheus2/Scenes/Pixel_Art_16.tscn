@@ -1,0 +1,2875 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Pixel_Art_16.gd" type="Script" id=1]
+
+[node name="Pixel_Art_16" type="Node2D" groups=[
+"Arts",
+]]
+script = ExtResource( 1 )
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="."]
+margin_top = 20.0
+margin_right = 40.0
+margin_bottom = 60.0
+rect_scale = Vector2( 0.5, 0.5 )
+text = "i"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RectContainer" type="Node2D" parent="."]
+position = Vector2( 20, 20 )
+
+[node name="ColorRect" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_right = 10.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_right = 20.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect3" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_right = 30.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect4" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_right = 40.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect5" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_right = 50.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect6" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_right = 60.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect7" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_right = 70.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect8" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_right = 80.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect9" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_right = 90.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect10" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_right = 100.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect11" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_right = 110.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect12" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_right = 120.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect13" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_right = 130.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect14" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_right = 140.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect15" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_right = 150.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect16" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_right = 160.0
+margin_bottom = 10.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect17" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 10.0
+margin_right = 10.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect18" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 20.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect19" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 10.0
+margin_right = 30.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect20" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 10.0
+margin_right = 40.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect21" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 10.0
+margin_right = 50.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect22" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 10.0
+margin_right = 60.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect23" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 10.0
+margin_right = 70.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect24" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 10.0
+margin_right = 80.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect25" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 10.0
+margin_right = 90.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect26" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 10.0
+margin_right = 100.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect27" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 10.0
+margin_right = 110.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect28" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 10.0
+margin_right = 120.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect29" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 10.0
+margin_right = 130.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect30" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 10.0
+margin_right = 140.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect31" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 10.0
+margin_right = 150.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect32" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 10.0
+margin_right = 160.0
+margin_bottom = 20.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect33" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 20.0
+margin_right = 10.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect34" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 20.0
+margin_right = 20.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect35" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 30.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect36" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 20.0
+margin_right = 40.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect37" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 20.0
+margin_right = 50.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect38" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 20.0
+margin_right = 60.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect39" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 20.0
+margin_right = 70.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect40" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 20.0
+margin_right = 80.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect41" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 20.0
+margin_right = 90.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect42" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 20.0
+margin_right = 100.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect43" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 20.0
+margin_right = 110.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect44" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 20.0
+margin_right = 120.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect45" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 20.0
+margin_right = 130.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect46" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 20.0
+margin_right = 140.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect47" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 20.0
+margin_right = 150.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect48" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 20.0
+margin_right = 160.0
+margin_bottom = 30.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect49" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 30.0
+margin_right = 10.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect50" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 30.0
+margin_right = 20.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect51" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 30.0
+margin_right = 30.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect52" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 30.0
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect53" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 30.0
+margin_right = 50.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect54" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 30.0
+margin_right = 60.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect55" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 30.0
+margin_right = 70.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect56" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 30.0
+margin_right = 80.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect57" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 30.0
+margin_right = 90.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect58" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 30.0
+margin_right = 100.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect59" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 30.0
+margin_right = 110.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect60" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 30.0
+margin_right = 120.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect61" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 30.0
+margin_right = 130.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect62" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 30.0
+margin_right = 140.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect63" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 30.0
+margin_right = 150.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect64" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 30.0
+margin_right = 160.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect65" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 40.0
+margin_right = 10.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect66" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 40.0
+margin_right = 20.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect67" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 40.0
+margin_right = 30.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect68" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 40.0
+margin_right = 40.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect69" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 50.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect70" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 40.0
+margin_right = 60.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect71" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 40.0
+margin_right = 70.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect72" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 40.0
+margin_right = 80.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect73" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 40.0
+margin_right = 90.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect74" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 40.0
+margin_right = 100.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect75" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 40.0
+margin_right = 110.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect76" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 40.0
+margin_right = 120.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect77" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 40.0
+margin_right = 130.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect78" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 40.0
+margin_right = 140.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect79" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 40.0
+margin_right = 150.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect80" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 40.0
+margin_right = 160.0
+margin_bottom = 50.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect81" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 50.0
+margin_right = 10.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect82" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 50.0
+margin_right = 20.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect83" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 50.0
+margin_right = 30.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect84" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 50.0
+margin_right = 40.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect85" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 50.0
+margin_right = 50.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect86" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 50.0
+margin_right = 60.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect87" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 50.0
+margin_right = 70.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect88" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 50.0
+margin_right = 80.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect89" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 50.0
+margin_right = 90.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect90" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 50.0
+margin_right = 100.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect91" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 50.0
+margin_right = 110.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect92" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 50.0
+margin_right = 120.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect93" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 50.0
+margin_right = 130.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect94" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 50.0
+margin_right = 140.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect95" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 50.0
+margin_right = 150.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect96" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 50.0
+margin_right = 160.0
+margin_bottom = 60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect97" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 60.0
+margin_right = 10.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect98" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 60.0
+margin_right = 20.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect99" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 60.0
+margin_right = 30.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect100" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 60.0
+margin_right = 40.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect101" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 60.0
+margin_right = 50.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect102" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 60.0
+margin_right = 60.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect103" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 60.0
+margin_right = 70.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect104" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 60.0
+margin_right = 80.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect105" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 60.0
+margin_right = 90.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect106" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 60.0
+margin_right = 100.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect107" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 60.0
+margin_right = 110.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect108" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 60.0
+margin_right = 120.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect109" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 60.0
+margin_right = 130.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect110" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 60.0
+margin_right = 140.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect111" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 60.0
+margin_right = 150.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect112" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 60.0
+margin_right = 160.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect113" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 70.0
+margin_right = 10.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect114" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 70.0
+margin_right = 20.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect115" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 70.0
+margin_right = 30.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect116" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 70.0
+margin_right = 40.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect117" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 70.0
+margin_right = 50.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect118" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 70.0
+margin_right = 60.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect119" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 70.0
+margin_right = 70.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect120" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 70.0
+margin_right = 80.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect121" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 70.0
+margin_right = 90.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect122" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 70.0
+margin_right = 100.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect123" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 70.0
+margin_right = 110.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect124" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 70.0
+margin_right = 120.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect125" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 70.0
+margin_right = 130.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect126" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 70.0
+margin_right = 140.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect127" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 70.0
+margin_right = 150.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect128" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 70.0
+margin_right = 160.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect129" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 80.0
+margin_right = 10.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect130" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 80.0
+margin_right = 20.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect131" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 80.0
+margin_right = 30.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect132" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 80.0
+margin_right = 40.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect133" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 80.0
+margin_right = 50.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect134" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 80.0
+margin_right = 60.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect135" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 80.0
+margin_right = 70.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect136" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 80.0
+margin_right = 80.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect137" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 80.0
+margin_right = 90.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect138" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 80.0
+margin_right = 100.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect139" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 80.0
+margin_right = 110.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect140" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 80.0
+margin_right = 120.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect141" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 80.0
+margin_right = 130.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect142" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 80.0
+margin_right = 140.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect143" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 80.0
+margin_right = 150.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect144" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 80.0
+margin_right = 160.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect145" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 90.0
+margin_right = 10.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect146" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 90.0
+margin_right = 20.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect147" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 90.0
+margin_right = 30.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect148" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 90.0
+margin_right = 40.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect149" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 90.0
+margin_right = 50.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect150" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 90.0
+margin_right = 60.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect151" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 90.0
+margin_right = 70.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect152" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 90.0
+margin_right = 80.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect153" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 90.0
+margin_right = 90.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect154" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 90.0
+margin_right = 100.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect155" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 90.0
+margin_right = 110.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect156" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 90.0
+margin_right = 120.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect157" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 90.0
+margin_right = 130.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect158" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 90.0
+margin_right = 140.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect159" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 90.0
+margin_right = 150.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect160" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 90.0
+margin_right = 160.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect161" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 100.0
+margin_right = 10.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect162" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 100.0
+margin_right = 20.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect163" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 100.0
+margin_right = 30.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect164" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 40.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect165" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 100.0
+margin_right = 50.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect166" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 100.0
+margin_right = 60.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect167" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 100.0
+margin_right = 70.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect168" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 100.0
+margin_right = 80.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect169" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 100.0
+margin_right = 90.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect170" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 100.0
+margin_right = 100.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect171" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 100.0
+margin_right = 110.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect172" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 100.0
+margin_right = 120.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect173" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 100.0
+margin_right = 130.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect174" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 100.0
+margin_right = 140.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect175" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 100.0
+margin_right = 150.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect176" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 100.0
+margin_right = 160.0
+margin_bottom = 110.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect177" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 110.0
+margin_right = 10.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect178" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 110.0
+margin_right = 20.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect179" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 110.0
+margin_right = 30.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect180" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 110.0
+margin_right = 40.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect181" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 110.0
+margin_right = 50.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect182" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 110.0
+margin_right = 60.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect183" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 110.0
+margin_right = 70.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect184" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 110.0
+margin_right = 80.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect185" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 110.0
+margin_right = 90.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect186" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 110.0
+margin_right = 100.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect187" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 110.0
+margin_right = 110.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect188" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 110.0
+margin_right = 120.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect189" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 110.0
+margin_right = 130.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect190" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 110.0
+margin_right = 140.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect191" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 110.0
+margin_right = 150.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect192" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 110.0
+margin_right = 160.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect193" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 120.0
+margin_right = 10.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect194" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 120.0
+margin_right = 20.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect195" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 120.0
+margin_right = 30.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect196" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 120.0
+margin_right = 40.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect197" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 120.0
+margin_right = 50.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect198" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 120.0
+margin_right = 60.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect199" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 120.0
+margin_right = 70.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect200" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 120.0
+margin_right = 80.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect201" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 120.0
+margin_right = 90.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect202" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 120.0
+margin_right = 100.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect203" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 120.0
+margin_right = 110.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect204" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 120.0
+margin_right = 120.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect205" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 120.0
+margin_right = 130.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect206" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 120.0
+margin_right = 140.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect207" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 120.0
+margin_right = 150.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect208" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 120.0
+margin_right = 160.0
+margin_bottom = 130.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect209" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 130.0
+margin_right = 10.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect210" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 130.0
+margin_right = 20.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect211" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 130.0
+margin_right = 30.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect212" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 130.0
+margin_right = 40.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect213" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 130.0
+margin_right = 50.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect214" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 130.0
+margin_right = 60.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect215" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 130.0
+margin_right = 70.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect216" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 130.0
+margin_right = 80.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect217" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 130.0
+margin_right = 90.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect218" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 130.0
+margin_right = 100.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect219" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 130.0
+margin_right = 110.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect220" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 130.0
+margin_right = 120.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect221" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 130.0
+margin_right = 130.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect222" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 130.0
+margin_right = 140.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect223" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 130.0
+margin_right = 150.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect224" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 130.0
+margin_right = 160.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect225" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 140.0
+margin_right = 10.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect226" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 140.0
+margin_right = 20.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect227" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 140.0
+margin_right = 30.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect228" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 140.0
+margin_right = 40.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect229" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 140.0
+margin_right = 50.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect230" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 140.0
+margin_right = 60.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect231" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 140.0
+margin_right = 70.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect232" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 140.0
+margin_right = 80.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect233" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 140.0
+margin_right = 90.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect234" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 140.0
+margin_right = 100.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect235" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 140.0
+margin_right = 110.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect236" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 140.0
+margin_right = 120.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect237" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 140.0
+margin_right = 130.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect238" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 140.0
+margin_right = 140.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect239" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 140.0
+margin_right = 150.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect240" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 140.0
+margin_right = 160.0
+margin_bottom = 150.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect241" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_top = 150.0
+margin_right = 10.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect242" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 10.0
+margin_top = 150.0
+margin_right = 20.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect243" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 20.0
+margin_top = 150.0
+margin_right = 30.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect244" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 30.0
+margin_top = 150.0
+margin_right = 40.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect245" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 40.0
+margin_top = 150.0
+margin_right = 50.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect246" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 50.0
+margin_top = 150.0
+margin_right = 60.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect247" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 60.0
+margin_top = 150.0
+margin_right = 70.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect248" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 70.0
+margin_top = 150.0
+margin_right = 80.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect249" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 80.0
+margin_top = 150.0
+margin_right = 90.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect250" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 90.0
+margin_top = 150.0
+margin_right = 100.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect251" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 100.0
+margin_top = 150.0
+margin_right = 110.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect252" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 110.0
+margin_top = 150.0
+margin_right = 120.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect253" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 120.0
+margin_top = 150.0
+margin_right = 130.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect254" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 130.0
+margin_top = 150.0
+margin_right = 140.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect255" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 140.0
+margin_top = 150.0
+margin_right = 150.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect256" type="ColorRect" parent="RectContainer" groups=[
+"Colour",
+]]
+margin_left = 150.0
+margin_top = 150.0
+margin_right = 160.0
+margin_bottom = 160.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 180.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_right = 140.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 160.0
+margin_right = 180.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Button" parent="."]
+margin_left = 140.0
+margin_right = 160.0
+margin_bottom = 20.0
+text = "_"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Lock" type="Button" parent="."]
+margin_top = 40.0
+margin_right = 20.0
+margin_bottom = 60.0
+text = "L"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="indicator" type="ColorRect" parent="Lock"]
+show_behind_parent = true
+margin_right = 20.0
+margin_bottom = 20.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 59.0
+margin_bottom = 19.0
+text = "Pixel Art"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="color_changed" from="ColorPickerButton" to="." method="_on_ColorPickerButton_color_changed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="pressed" from="Hide" to="." method="_on_Hide_pressed"]
+[connection signal="pressed" from="Lock" to="." method="_on_Lock_pressed"]

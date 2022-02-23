@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Information_Tabs.gd" type="Script" id=1]
+
+[node name="Information_Tabs" type="Node2D" groups=[
+"Buttons",
+]]
+z_index = 100
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 60.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_Name" type="Label" parent="."]
+margin_left = 40.0
+margin_top = 3.0
+margin_right = 60.0
+margin_bottom = 17.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text_Region" type="TextEdit" parent="."]
+visible = false
+margin_top = 20.0
+margin_right = 65.0
+margin_bottom = 65.0
+rect_min_size = Vector2( 65, 45 )
+show_line_numbers = true
+wrap_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Movement" type="Button" parent="Text_Region"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -20.0
+margin_top = -20.0
+text = ">"
+flat = true
+
+[node name="Button_Region" type="Button" parent="."]
+margin_left = 20.0
+margin_right = 40.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 0, 20 )
+text = "[]"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_right = 20.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_left = 40.0
+margin_right = 60.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_changed" from="Text_Region" to="." method="_on_Text_Region_text_changed"]
+[connection signal="button_down" from="Text_Region/Movement" to="." method="_on_Movement_button_down"]
+[connection signal="button_up" from="Text_Region/Movement" to="." method="_on_Movement_button_up"]
+[connection signal="pressed" from="Button_Region" to="." method="_on_Button_Region_pressed"]
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]

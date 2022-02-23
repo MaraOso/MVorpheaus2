@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Import/Button_Debt.PNG" type="Texture" id=1]
+[ext_resource path="res://Import/Button_Money.PNG" type="Texture" id=2]
+[ext_resource path="res://Import/Button_Idea.PNG" type="Texture" id=3]
+[ext_resource path="res://Import/Button_Test_Person.PNG" type="Texture" id=4]
+[ext_resource path="res://Scripts/Randomizer.gd" type="Script" id=5]
+
+[node name="Randomizer" type="Node2D" groups=[
+"Tools",
+]]
+z_index = 100
+script = ExtResource( 5 )
+
+[node name="Base" type="Button" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 20, 20 )
+icon = ExtResource( 4 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ItemList" type="ItemList" parent="."]
+visible = false
+margin_left = 1.0
+margin_top = 42.0
+margin_right = 57.0
+margin_bottom = 102.0
+items = [ "Clear", null, false, "A", ExtResource( 4 ), false, "B", ExtResource( 1 ), false, "C", ExtResource( 2 ), false, "D", ExtResource( 3 ), false ]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_down" from="Base" to="." method="_on_Base_button_down"]
+[connection signal="button_up" from="Base" to="." method="_on_Base_button_up"]
+[connection signal="pressed" from="Base" to="." method="_on_Base_pressed"]
+[connection signal="item_selected" from="ItemList" to="." method="_on_ItemList_item_selected"]

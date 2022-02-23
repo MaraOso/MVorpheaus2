@@ -1,0 +1,140 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Dictionary_Tool.gd" type="Script" id=1]
+
+[node name="Dictionary_Tool" type="Node2D" groups=[
+"Tools",
+]]
+script = ExtResource( 1 )
+
+[node name="BackPanel" type="Panel" parent="."]
+self_modulate = Color( 0.607843, 0.14902, 0.14902, 1 )
+margin_top = 20.0
+margin_right = 200.0
+margin_bottom = 270.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Add_Def" type="Button" parent="BackPanel"]
+margin_left = 140.0
+margin_top = 35.0
+margin_right = 180.0
+margin_bottom = 55.0
+text = "Add"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Search_Def" type="Button" parent="BackPanel"]
+margin_left = 5.0
+margin_top = 35.0
+margin_right = 59.0
+margin_bottom = 55.0
+text = "Search"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Remove" type="Button" parent="BackPanel"]
+margin_left = 70.0
+margin_top = 35.0
+margin_right = 134.0
+margin_bottom = 55.0
+text = "Remove"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Input_Main" type="LineEdit" parent="BackPanel"]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 195.0
+margin_bottom = 30.0
+align = 1
+placeholder_text = "Input Word"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Input_Def" type="TextEdit" parent="BackPanel"]
+margin_left = 5.0
+margin_top = 60.0
+margin_right = 195.0
+margin_bottom = 220.0
+readonly = true
+show_line_numbers = true
+wrap_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Browse" type="Button" parent="BackPanel"]
+margin_left = 75.0
+margin_top = 225.0
+margin_right = 135.0
+margin_bottom = 245.0
+text = "Browse"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="ColorRect" parent="."]
+margin_right = 200.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_right = 160.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 180.0
+margin_right = 200.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Button" parent="."]
+margin_left = 160.0
+margin_right = 180.0
+margin_bottom = 20.0
+text = "_"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 70.0
+margin_bottom = 19.0
+text = "Dictionary"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="BackPanel/Add_Def" to="." method="_on_Add_Def_pressed"]
+[connection signal="pressed" from="BackPanel/Search_Def" to="." method="_on_Search_Def_pressed"]
+[connection signal="pressed" from="BackPanel/Remove" to="." method="_on_Remove_pressed"]
+[connection signal="text_changed" from="BackPanel/Input_Main" to="." method="_on_Input_Main_text_changed"]
+[connection signal="text_changed" from="BackPanel/Input_Def" to="." method="_on_Input_Def_text_changed"]
+[connection signal="pressed" from="BackPanel/Browse" to="." method="_on_Browse_pressed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="pressed" from="Hide" to="." method="_on_Hide_pressed"]

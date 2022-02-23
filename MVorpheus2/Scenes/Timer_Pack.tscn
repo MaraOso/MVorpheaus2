@@ -1,0 +1,196 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Timer_Pack.gd" type="Script" id=1]
+
+[node name="Timer" type="Node2D" groups=[
+"Tools",
+]]
+z_index = 100
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 300.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 45.0
+margin_bottom = 19.0
+text = "Timer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 280.0
+margin_right = 300.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Button" parent="."]
+margin_left = 260.0
+margin_right = 280.0
+margin_bottom = 20.0
+text = "_"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_right = 260.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer_Base" type="Node2D" parent="."]
+position = Vector2( 0, 20 )
+
+[node name="Panel" type="Panel" parent="Timer_Base"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 300.0
+margin_bottom = 70.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HourBack" type="Button" parent="Timer_Base"]
+margin_right = 36.0
+margin_bottom = 70.0
+text = "<<<"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MinBack" type="Button" parent="Timer_Base"]
+margin_left = 40.0
+margin_right = 68.0
+margin_bottom = 70.0
+text = "<<"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SecBack" type="Button" parent="Timer_Base"]
+margin_left = 72.0
+margin_right = 92.0
+margin_bottom = 70.0
+text = "<"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HourUp" type="Button" parent="Timer_Base"]
+margin_left = 264.0
+margin_right = 300.0
+margin_bottom = 70.0
+text = ">>>"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MinUp" type="Button" parent="Timer_Base"]
+margin_left = 232.0
+margin_right = 260.0
+margin_bottom = 70.0
+text = ">>"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SecUp" type="Button" parent="Timer_Base"]
+margin_left = 208.0
+margin_right = 228.0
+margin_bottom = 70.0
+text = ">"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HourTime" type="Label" parent="Timer_Base"]
+margin_left = 100.0
+margin_top = 25.0
+margin_right = 140.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 40, 15 )
+text = "120H"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MinTime" type="Label" parent="Timer_Base"]
+margin_left = 140.0
+margin_top = 25.0
+margin_right = 170.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 30, 15 )
+text = "50M"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SecTime" type="Label" parent="Timer_Base"]
+margin_left = 175.0
+margin_top = 25.0
+margin_right = 205.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 30, 15 )
+text = "50S"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BaseTime" type="Timer" parent="Timer_Base"]
+
+[node name="Start" type="Button" parent="Timer_Base"]
+margin_left = 96.0
+margin_right = 137.0
+margin_bottom = 20.0
+text = "Start"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Stop" type="Button" parent="Timer_Base"]
+margin_left = 162.0
+margin_right = 203.0
+margin_bottom = 20.0
+text = "Stop"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Reset" type="Button" parent="Timer_Base"]
+margin_left = 127.0
+margin_top = 48.0
+margin_right = 175.0
+margin_bottom = 68.0
+text = "Reset"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="pressed" from="Hide" to="." method="_on_Hide_pressed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]
+[connection signal="pressed" from="Timer_Base/HourBack" to="." method="_on_HourBack_pressed"]
+[connection signal="pressed" from="Timer_Base/MinBack" to="." method="_on_MinBack_pressed"]
+[connection signal="pressed" from="Timer_Base/SecBack" to="." method="_on_SecBack_pressed"]
+[connection signal="pressed" from="Timer_Base/HourUp" to="." method="_on_HourUp_pressed"]
+[connection signal="pressed" from="Timer_Base/MinUp" to="." method="_on_MinUp_pressed"]
+[connection signal="pressed" from="Timer_Base/SecUp" to="." method="_on_SecUp_pressed"]
+[connection signal="timeout" from="Timer_Base/BaseTime" to="." method="_on_BaseTime_timeout"]
+[connection signal="pressed" from="Timer_Base/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Timer_Base/Stop" to="." method="_on_Stop_pressed"]
+[connection signal="pressed" from="Timer_Base/Reset" to="." method="_on_Reset_pressed"]

@@ -1,0 +1,86 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/BinaryConverter.gd" type="Script" id=1]
+
+[node name="BinaryConverter" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Panel" type="Panel" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 240.0
+margin_bottom = 95.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 235.0
+margin_bottom = 90.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SpinBox" type="SpinBox" parent="."]
+margin_left = 10.0
+margin_top = 35.0
+margin_right = 84.0
+margin_bottom = 59.0
+max_value = 1.11111e+08
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2Binary" type="Button" parent="."]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 85.0
+margin_bottom = 30.0
+text = "2Decimal"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2Decimal" type="Button" parent="."]
+margin_left = 10.0
+margin_top = 65.0
+margin_right = 85.0
+margin_bottom = 85.0
+text = "2Binary"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="result" type="LineEdit" parent="."]
+margin_left = 95.3262
+margin_top = 34.2996
+margin_right = 225.326
+margin_bottom = 58.2996
+editable = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 210.0
+margin_top = 10.0
+margin_right = 230.0
+margin_bottom = 30.0
+text = "X"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_left = 185.0
+margin_top = 10.0
+margin_right = 205.0
+margin_bottom = 30.0
+text = ">"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="value_changed" from="SpinBox" to="." method="_on_SpinBox_value_changed"]
+[connection signal="pressed" from="2Binary" to="." method="_on_2Binary_pressed"]
+[connection signal="pressed" from="2Decimal" to="." method="_on_2Decimal_pressed"]

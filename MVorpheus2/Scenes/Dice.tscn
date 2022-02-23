@@ -1,0 +1,93 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Dice.gd" type="Script" id=1]
+
+[node name="Dice" type="Node2D" groups=[
+"Tools",
+]]
+z_index = 100
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 100.0
+margin_bottom = 20.0
+color = Color( 0.313726, 0.313726, 0.313726, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Close" type="Button" parent="."]
+margin_left = 80.0
+margin_right = 100.0
+margin_bottom = 20.0
+text = "x"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hide" type="Button" parent="."]
+margin_left = 60.0
+margin_right = 80.0
+margin_bottom = 20.0
+text = "_"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Move" type="Button" parent="."]
+margin_right = 60.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Total" type="Label" parent="."]
+margin_left = 5.0
+margin_top = 5.0
+margin_right = 47.0
+margin_bottom = 19.0
+text = "1 DICE"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BodyBase" type="Node2D" parent="."]
+position = Vector2( 0, 20 )
+
+[node name="Base" type="Button" parent="BodyBase"]
+margin_left = 20.0
+margin_right = 80.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 60, 60 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Decrease" type="Button" parent="BodyBase"]
+margin_right = 20.0
+margin_bottom = 60.0
+text = "<"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Increase" type="Button" parent="BodyBase"]
+margin_left = 80.0
+margin_right = 100.0
+margin_bottom = 60.0
+text = ">"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Close" to="." method="_on_Close_pressed"]
+[connection signal="pressed" from="Hide" to="." method="_on_Hide_pressed"]
+[connection signal="button_down" from="Move" to="." method="_on_Move_button_down"]
+[connection signal="button_up" from="Move" to="." method="_on_Move_button_up"]
+[connection signal="button_down" from="BodyBase/Base" to="." method="_on_Base_button_down"]
+[connection signal="button_up" from="BodyBase/Base" to="." method="_on_Base_button_up"]
+[connection signal="pressed" from="BodyBase/Decrease" to="." method="_on_Decrease_pressed"]
+[connection signal="pressed" from="BodyBase/Increase" to="." method="_on_Increase_pressed"]

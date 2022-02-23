@@ -1,0 +1,471 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scripts/Front_Page.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Screen.tscn" type="PackedScene" id=2]
+
+[node name="Front_Page" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Organize_Area" type="Node2D" parent="."]
+
+[node name="BackGround" type="Panel" parent="Organize_Area"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_right = 1024.0
+margin_bottom = 600.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Edit_Area" type="Panel" parent="Organize_Area"]
+margin_left = 12.0
+margin_top = 120.0
+margin_right = 1012.0
+margin_bottom = 520.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Creation" type="Node2D" parent="Organize_Area"]
+z_index = 4096
+
+[node name="Creation_Area" type="Panel" parent="Organize_Area/Creation"]
+margin_top = 540.0
+margin_right = 500.0
+margin_bottom = 580.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_Name" type="LineEdit" parent="Organize_Area/Creation/Creation_Area"]
+margin_left = 10.0
+margin_top = 5.0
+margin_right = 240.0
+margin_bottom = 35.0
+placeholder_text = "Text Name"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Create" type="Button" parent="Organize_Area/Creation/Creation_Area"]
+margin_left = 290.0
+margin_top = 5.0
+margin_right = 370.0
+margin_bottom = 35.0
+text = "Create"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Image" type="Button" parent="Organize_Area/Creation/Creation_Area"]
+margin_left = 400.0
+margin_top = 5.0
+margin_right = 480.0
+margin_bottom = 35.0
+text = "Import"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scroll_Button" type="Control" parent="Organize_Area/Creation"]
+margin_left = 300.0
+margin_right = 340.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="Organize_Area/Creation/Scroll_Button"]
+margin_left = 500.0
+margin_top = 540.0
+margin_right = 620.0
+margin_bottom = 580.0
+color = Color( 0.196078, 0.196078, 0.215686, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scroll_Left" type="Button" parent="Organize_Area/Creation/Scroll_Button"]
+margin_left = 530.0
+margin_top = 540.0
+margin_right = 570.0
+margin_bottom = 580.0
+text = "<<<"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scroll_Right" type="Button" parent="Organize_Area/Creation/Scroll_Button"]
+margin_left = 580.0
+margin_top = 540.0
+margin_right = 620.0
+margin_bottom = 580.0
+text = ">>>"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Add_Window" type="Button" parent="Organize_Area/Creation/Scroll_Button"]
+margin_left = 500.0
+margin_top = 539.0
+margin_right = 520.0
+margin_bottom = 559.0
+text = "+"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Remove_Window" type="Button" parent="Organize_Area/Creation/Scroll_Button"]
+margin_left = 500.0
+margin_top = 561.0
+margin_right = 520.0
+margin_bottom = 581.0
+text = "-"
+flat = true
+
+[node name="Main_Tabs" type="CanvasLayer" parent="."]
+
+[node name="Main_Tab" type="Panel" parent="Main_Tabs"]
+margin_right = 1024.0
+margin_bottom = 100.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 5.0
+margin_top = 45.0
+margin_right = 105.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Start"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Edit_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 105.0
+margin_top = 45.0
+margin_right = 205.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Edit"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="View_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 205.0
+margin_top = 45.0
+margin_right = 305.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Tools"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Format_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 305.0
+margin_top = 45.0
+margin_right = 405.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Format"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Help_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 405.0
+margin_top = 45.0
+margin_right = 505.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Help"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Halloween_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 650.0
+margin_top = 45.0
+margin_right = 750.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Halloween"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Calc_Tools" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 750.0
+margin_top = 45.0
+margin_right = 850.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Calc Tools"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Art_Toosl_Button" type="Button" parent="Main_Tabs/Main_Tab"]
+margin_left = 850.0
+margin_top = 45.0
+margin_right = 950.0
+margin_bottom = 85.0
+rect_min_size = Vector2( 100, 40 )
+text = "Art Tools"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start_Menu_Base" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 5.0
+margin_top = 70.0
+margin_right = 105.0
+margin_bottom = 190.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/Start_Menu_Base"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 90.0
+margin_bottom = 100.0
+items = [ "Save", null, false, "Home", null, false, "Close", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Edit_Menu_Base2" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 115.0
+margin_top = 70.0
+margin_right = 215.0
+margin_bottom = 140.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Edit_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/Edit_Menu_Base2"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 90.0
+margin_bottom = 70.0
+items = [ "Undo", null, false, "Close", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="View_Menu_Base3" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 225.0
+margin_top = 70.0
+margin_right = 345.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="View_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/View_Menu_Base3"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 110.0
+margin_bottom = 100.0
+items = [ "Close", null, false, "Progress", null, false, "Timer", null, false, "Reference", null, false, "Dice", null, false, "Calculator", null, false, "Dictionary", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Format_Menu_Base4" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 335.0
+margin_top = 70.0
+margin_right = 465.0
+margin_bottom = 200.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Format_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/Format_Menu_Base4"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 120.0
+margin_bottom = 120.0
+items = [ "Clear Tools", null, false, "Clear Buttons", null, false, "Clear Images", null, false, "Clear All", null, false, "Close", null, false ]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Help_Menu_Base5" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 475.0
+margin_top = 70.0
+margin_right = 615.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Help_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/Help_Menu_Base5"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 130.0
+margin_bottom = 100.0
+items = [ "Tutorial", null, false, "Close", null, false ]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Halloween_Base" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 625.0
+margin_top = 70.0
+margin_right = 765.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Halloween_Menu" type="ItemList" parent="Main_Tabs/Main_Tab/Halloween_Base"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 130.0
+margin_bottom = 100.0
+items = [ "Pumpkin", null, false, "Skull", null, false, "Grave", null, false, "Bat", null, false, "Ghost", null, false, "Tree", null, false, "Close", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Extra_Tools" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 775.0
+margin_top = 70.0
+margin_right = 915.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Calc_Tools" type="ItemList" parent="Main_Tabs/Main_Tab/Extra_Tools"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 130.0
+margin_bottom = 100.0
+items = [ "Close", null, false, "Metronome", null, false, "Random Draw", null, false, "Compass", null, false, "Color Rectangle", null, false, "Number Gen", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Art_Tools_Base" type="Panel" parent="Main_Tabs/Main_Tab"]
+visible = false
+margin_left = 875.0
+margin_top = 70.0
+margin_right = 1015.0
+margin_bottom = 180.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Art_Tools" type="ItemList" parent="Main_Tabs/Main_Tab/Art_Tools_Base"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 130.0
+margin_bottom = 100.0
+items = [ "Close", null, false, "Art Button", null, false, "Pixel 16x16", null, false ]
+allow_reselect = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DocumentName" type="LineEdit" parent="Main_Tabs/Main_Tab"]
+margin_left = 5.0
+margin_top = 10.0
+margin_right = 205.0
+margin_bottom = 40.0
+expand_to_text_length = true
+placeholder_text = "Untitled Document"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WindowCount" type="Label" parent="Main_Tabs/Main_Tab"]
+margin_left = 950.0
+margin_top = 550.0
+margin_right = 976.0
+margin_bottom = 564.0
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Popup_Holder" type="Node2D" parent="."]
+z_index = 1000
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Popup_Holder"]
+
+[node name="ImageFile" type="FileDialog" parent="Popup_Holder/CanvasLayer"]
+margin_left = 530.0
+margin_top = 185.0
+margin_right = 845.0
+margin_bottom = 490.0
+popup_exclusive = true
+window_title = "Open a File"
+resizable = true
+mode = 0
+access = 2
+current_dir = "/Users/MV/Desktop/MVorpheus_2/MVorpheus2"
+current_path = "/Users/MV/Desktop/MVorpheus_2/MVorpheus2/"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Windows" type="Node2D" parent="."]
+
+[node name="Screen" parent="Windows" instance=ExtResource( 2 )]
+[connection signal="text_changed" from="Organize_Area/Creation/Creation_Area/Button_Name" to="." method="_on_Button_Name_text_changed"]
+[connection signal="pressed" from="Organize_Area/Creation/Creation_Area/Create" to="." method="_on_Create_pressed"]
+[connection signal="pressed" from="Organize_Area/Creation/Creation_Area/Image" to="." method="_on_Image_pressed"]
+[connection signal="pressed" from="Organize_Area/Creation/Scroll_Button/Scroll_Left" to="." method="_on_Scroll_Left_pressed"]
+[connection signal="pressed" from="Organize_Area/Creation/Scroll_Button/Scroll_Right" to="." method="_on_Scroll_Right_pressed"]
+[connection signal="pressed" from="Organize_Area/Creation/Scroll_Button/Add_Window" to="." method="_on_Add_Window_pressed"]
+[connection signal="pressed" from="Organize_Area/Creation/Scroll_Button/Remove_Window" to="." method="_on_Remove_Window_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Start_Button" to="." method="_on_Start_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Edit_Button" to="." method="_on_Edit_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/View_Button" to="." method="_on_View_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Format_Button" to="." method="_on_Format_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Help_Button" to="." method="_on_Help_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Halloween_Button" to="." method="_on_Halloween_Button_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Calc_Tools" to="." method="_on_Calc_Tools_pressed"]
+[connection signal="pressed" from="Main_Tabs/Main_Tab/Art_Toosl_Button" to="." method="_on_Art_Toosl_Button_pressed"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Start_Menu_Base/Start_Menu" to="." method="_on_Start_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Edit_Menu_Base2/Edit_Menu" to="." method="_on_Edit_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/View_Menu_Base3/View_Menu" to="." method="_on_View_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Format_Menu_Base4/Format_Menu" to="." method="_on_Format_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Help_Menu_Base5/Help_Menu" to="." method="_on_Help_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Halloween_Base/Halloween_Menu" to="." method="_on_Halloween_Menu_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Extra_Tools/Calc_Tools" to="." method="_on_Calc_Tools_item_selected"]
+[connection signal="item_selected" from="Main_Tabs/Main_Tab/Art_Tools_Base/Art_Tools" to="." method="_on_Art_Tools_item_selected"]
+[connection signal="text_changed" from="Main_Tabs/Main_Tab/DocumentName" to="." method="_on_DocumentName_text_changed"]
+[connection signal="file_selected" from="Popup_Holder/CanvasLayer/ImageFile" to="." method="_on_ImageFile_file_selected"]
